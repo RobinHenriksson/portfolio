@@ -1,0 +1,90 @@
+[
+  {
+    "title": "Fullstack developer",
+    "customer": "Abro",
+    "period": "Mars 2020 - June 2020",
+    "description": "Abro is building a PWA app to convert their paper to digital waybill management. Robin has helped them with fullstack development in Vue.js and SASS in frontend and PHP - Laravel in backend with responsiveness in mind to fit Desktop, Android and iPhone units etc.",
+    "skills": "Vue.js, JavaScript, Frontend, Backend, PHP, Laravel, CSS, Git, REST, Responsive design, SASS, Photoshop, Docker, API, SPA",
+    "gallery": false
+  },
+  {
+    "title": "Frontend Developer",
+    "customer": "Wematter",
+    "period": "Jun 2019 – Mar 2020",
+    "description": "Wematter is building a new system for their 3D-printing management and Robin has helped them with frontend development in Vue.js (Typescript) and SASS with responsiveness in mind to fit Desktop, Android and iPhone units etc.",
+    "skills": "Vue.js, Typescript, JavaScript, Frontend, CSS, Git, REST, Responsive design, SASS, Photoshop, Docker, API, SPA",
+    "gallery": false
+  },
+  {
+    "title": "Fullstack developer",
+    "customer": "Smart Sports Recruitment",
+    "period": "Sep 2018 - Ongoing",
+    "description": "Robin has developed a portal which connects coaches in USA with students in sweden who wants to combine soccer and college. Robin has a fullstack role and has build a SPA solution with PHP backend och Vue.js frontend. The platform is responsive to fit all kind of units like desktop, android and iphone etc.",
+    "skills": "Vue.js, SASS, PHP, SPA, API, Backend, CSS, Design, Docker, Frontend, Fullstack, Git, HTML, JavaScript, Kanban, MVC Architecture, MySQL, Photoshop, Relational databases, Responsive design",
+    "gallery": true,
+    "image": "/images/sports.jpg",
+    "link": "https://smartsportsrecruitment.com"
+  },
+  {
+    "title": "Frontend developer",
+    "customer": "Skandiamäklarna",
+    "period": "Feb 2019 – Jun 2019",
+    "description": "Skandiamäklarna is building a new internal system and Robin has helped them with frontend development in Angular with responsiveness in mind to fit Desktop, Android and iPhone units etc.",
+    "skills": "Angular 6, API, Frontend, JavaScript, Kanban, Responsive design, REST, SASS",
+    "gallery": false
+  },
+  {
+    "title": "Fullstack developer",
+    "customer": "XLENT.se",
+    "period": "Nov 2018 - Ongoing",
+    "description": "Robin is buildning the new XLENT.se website. The website is based on Pimcore, a PHP-framework for CMS and PIM. Frontend is developed with vanilla javascript and Vue.js scripts, HTML and CSS. There is a team of six people working in the project which Robin is working both with frontend and backend development. The frontend development is formed to fit reponsive in all devices like desktop, android and iphones etc.",
+    "skills": "Vue.js, API, Backend, CSS3, Docker, Frontend, Git, HTML, JavaScript, Kanban, MVC Architecture, MySQL, npm, PHP, Pimcore, Responsive design, REST, symfony2",
+    "gallery": true,
+    "image": "/images/xlent.jpg",
+    "link": "https://xlent.se"
+  },
+  {
+    "title": "CTO",
+    "customer": "V-FIT",
+    "period": "May 2016 - Ongoing",
+    "description": "V-FIT is a clothing brand which focus on fit people clothes.\n\n Robin is responsible for all technology, from which systems to use, planning ongoing development and participate in developing the ecommerce solution.\n\n Robin has created a customized MVC framework, ecommerce platform and also Admin UI/UX for order handling. The development is based on responsive design to fit all devices like Desktop, Android and iPhone etc. ",
+    "skills": "API, Backend, Bootstrap, CSS, Docker, Frontend, Git, HTML, jQuery, Kanban, MVC Architecture, MySQL, Photoshop, PHP, UI Design, UX, Vue.js",
+    "gallery": true,
+    "image": "/images/vfit.jpg",
+    "link": "https://vfitsweden.com"
+  },
+  {
+    "title": "Supervisor for high school students",
+    "customer": "XLENT",
+    "period": "Oct 2018 - Jun 2019",
+    "description": "Robin is the supervisor of two trainees from the high school engineering program. They go through different programming languages, both frontend and backend, and set up tasks / goals that the trainee will manage after the end of the internship.",
+    "skills": "Backend, Frontend, Git, Vue.js",
+    "gallery": false
+  },
+  {
+    "title": "Fullstack developer",
+    "customer": "Calendar",
+    "period": "Sep 2018 - Nov 2018",
+    "description": "Robin has created a calendar synchronization program to synchronize \"Not in the office\" time, for better planning of events and business activities.",
+    "skills": "API, Backend, CSS, Design, Docker, Frontend, Fullstack, Git, HTML, JavaScript, Kanban, Laravel, MVC Architecture, PHP, REST, SASS, Vue.js",
+    "gallery": false
+  },
+  {
+    "title": "Fullstack developer",
+    "customer": "Damax AB",
+    "period": "Sep 2015 - Ongoing",
+    "description": "Damax is a construction and joinery company based in Östergötland. Before, the workers wrote the entire time sheet on paper sheets.\n\n Robin created a mobile versioning system for their time tracking based on each week. The system is built to be automatically adapted for all devices such as desktop, android and iOS. The System also includes an administration for the CEO / economist for managing customers, connect order confirmations and send invoices.",
+    "skills": "Backend, Bootstrap, CSS, Database modelling, Design, Frontend, Fullstack, HTML, Interface design, JavaScript, jQuery, Kanban, MySQL, Photoshop, PHP, Relational databases, UI Design, UX",
+    "gallery": false
+  },
+  {
+    "title": "Fullstack developer",
+    "customer": "Seat.no",
+    "period": "Jun 2017 - Jul 2018",
+    "description": "Robin worked as both a backend and frontend developer in a scrum team of six people, where they created a new e-commerce solution for Seat Norway.\n\n He focused on backend with the language PHP, but also did a lot of frontend development in jQuery and KnockoutJS. The frontend development had focus on a responsive design for all devices such as Android, IOS and desktop. ",
+    "skills": "Backend, Bootstrap, CSS, Database modelling, Design, Frontend, Fullstack, HTML, Interface design, JavaScript, jQuery, Kanban, MySQL, Photoshop, PHP, Relational databases, UI Design, UX",
+    "gallery": true,
+    "image": "/images/seat.jpg",
+    "link": "https://seat.no"
+  }
+]

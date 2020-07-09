@@ -1,0 +1,70 @@
+[
+  {
+    "title": "Level 4 - Advanced",
+    "data": [
+      "Fullstack",
+      "Vue.js",
+      "PHP",
+      "Frontend",
+      "Backend",
+      "CSS",
+      "CSS3",
+      "Database modelling",
+      "Design",
+      "Developer",
+      "eCommerce",
+      "HTML",
+      "Integration",
+      "Interface design",
+      "JavaScript",
+      "jQuery",
+      "Kanban",
+      "Microsoft SQL Express",
+      "Microsoft Windows 2012 Server",
+      "MySQL",
+      "Photoshop",
+      "Pimcore",
+      "Relational databases",
+      "SPA",
+      "StreamServe"
+    ]
+  },
+  {
+    "title": "Level 3 - High Competence",
+    "data": [
+      "SASS",
+      "API",
+      "Bootstrap",
+      "Digital Signage",
+      "Docker",
+      "ERP Integration",
+      "Git",
+      "KnockoutJS",
+      "Laravel",
+      "Linux",
+      "Magento 2",
+      "Microsoft IIS",
+      "MSSQL Management Studio",
+      "MVC Architecture",
+      "npm",
+      "Responsive design",
+      "REST",
+      "Scrive",
+      "Scrum",
+      "UI Design",
+      "UML",
+      "UX",
+      "Wordpress",
+      "XML",
+      "Zend Framework"
+    ]
+  },
+  {
+    "title": "Level 2 - Intermediate",
+    "data": [
+      "Angular 6",
+      "LESS",
+      "Symfony 2"
+    ]
+  }
+]
