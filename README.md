@@ -11,7 +11,7 @@ This is a vue coding example for website https://robinhenriksson.se
    * Dumb component(s) are used for data rendering.
       * Accepts props only.
       * Emits all events to smart component.
-      * use Tailwind as long as possible
+      * Uses Tailwind css classes as long as possible
       * Sass shall be scoped as long as possible, otherwise wrapped in a specific class.
    * Views  are used to import and position components to create a page
       * Only accept smart components
