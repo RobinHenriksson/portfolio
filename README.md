@@ -3,7 +3,7 @@ This is a vue coding example for website https://robinhenriksson.se
 
 
 ## Project structure
-* All components shall be imported with Pascal Case like `<ProfileContainer />` or `<BlueSquare />`
+* All components shall be imported with PascalCase like `<ProfileContainer />` or `<BlueSquare />`
 * Smart/dumb components structure.
    * Smart component(s) handle all buisness logic.
       * Handles all vuex store communication.
@@ -13,9 +13,10 @@ This is a vue coding example for website https://robinhenriksson.se
       * Emits all events to smart component.
       * Uses Tailwind css classes as long as possible
       * Sass shall be scoped as long as possible, otherwise wrapped in a specific class.
-   * Views  are used to import and position components to create a page
-      * Only accept smart components
-      * shall be created in views folder
+   * Base component(s) are created in the `src/components` folder 
+   * View(s) are created in `src/views` folder 
+      * Used to import and position components to create a page
+      * Only accept smart components or base components
 * API-calls are made through vuex actions
    * Vuex: each API call goes through a `RepositoryFactory`, i.e. `const repository = RepositoryFactory.get('experience')` looks like this in its vuex action:
    ```
