@@ -1,4 +1,7 @@
 
+This is a vue coding example for website https://robinhenriksson.se
+
+
 ## Project structure
 * All components shall be imported with Pascal Case like `<ProfileContainer />` or `<BlueSquare />`
 * Smart/dumb components structure.
