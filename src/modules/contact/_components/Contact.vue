@@ -8,7 +8,8 @@
             <input class="mb-2 p-2 rounded-lg bg-custom-green border-white border-2 outline-none placeholder-white placeholder-opacity-50" type="text" :value="contact.name" @input="$emit('update', {name: $event.target.value})" required placeholder="Name" />
             <input class="mb-2 p-2 rounded-lg bg-custom-green border-white border-2 outline-none placeholder-white placeholder-opacity-50" type="email" :value="contact.email" @input="$emit('update', {email: $event.target.value})" required placeholder="Email" />
             <textarea class="mb-2 p-2 rounded-lg bg-custom-green border-white border-2 outline-none placeholder-white placeholder-opacity-50" required :value="contact.message" @input="$emit('update', {message: $event.target.value})" placeholder="Message"></textarea>
-            <button class="bg-white rounded-lg text-custom-green p-2 outline-none" type="submit">Send</button>
+            <Loader v-if="loading" mode="light" />
+            <button v-else class="bg-white rounded-lg text-custom-green p-2 outline-none" type="submit">Send</button>
           </form>
         </div>
         <div class="w-9/12 lg:w-1/2 flex flex-col justify-center items-center">
@@ -38,6 +39,7 @@ export default {
   name: 'Contact',
   props: {
     contact: { default: () => {} },
+    loading: { default: false },
     year: { default: '' }
   },
   components: {

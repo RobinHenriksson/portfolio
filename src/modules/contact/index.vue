@@ -1,5 +1,6 @@
 <template>
   <Contact
+    :loading="loading"
     :contact="contact"
     :year="year"
     @submit="handleSubmit"
@@ -10,15 +11,26 @@
 <script>
 
 import Contact from './_components/Contact'
+import { mapGetters } from 'vuex'
 
 export default {
   name: 'ContactModule',
   components: {
     Contact
   },
+  computed: {
+    ...mapGetters({
+      loading: 'contact/loading'
+    })
+  },
   data () {
     return {
       contact: {
+        name: '',
+        email: '',
+        message: ''
+      },
+      defaultContact: {
         name: '',
         email: '',
         message: ''
@@ -28,7 +40,8 @@ export default {
   },
   methods: {
     handleSubmit (event) {
-      console.log(this.contact)
+      this.$store.dispatch('contact/send', this.contact)
+      this.contact = { ...this.defaultContact }
     },
     update (payload) {
       this.contact = { ...this.contact, ...payload }

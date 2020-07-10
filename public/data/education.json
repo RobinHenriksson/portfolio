@@ -1,12 +1,12 @@
 [
   {
+    "name": "System sience",
+    "school": "Linköping University",
+    "years": "2010-2013"
+  },
+  {
     "name": "Programing",
     "school": "IT-gymnasiet",
     "years": "2004-2007"
-  },
-  {
-    "name": "System sience",
-    "school": "Linköping Universitet",
-    "years": "2010-2013"
   }
 ]
