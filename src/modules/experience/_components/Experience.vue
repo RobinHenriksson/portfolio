@@ -1,5 +1,5 @@
 <template>
-  <div class="flex w-full relative justify-center bg-custom-light-gray">
+  <div class="flex w-full relative pb-20 justify-center bg-custom-light-gray">
     <div class="container z-10 py-10 pv-10 flex flex-col items-center max-w-2xl">
       <h2 class="text-xl font-bold pb-10 font-rubik">Experience</h2>
       <Timeline :list="list"/>
