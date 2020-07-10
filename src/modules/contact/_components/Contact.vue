@@ -4,6 +4,9 @@
       <div class="flex flex-col items-center 900:flex-row w-full">
         <div class="w-full lg:w-1/2 flex flex-col items-center mb-12">
           <h2 class="text-xl font-bold pb-2 font-rubik">Contact me</h2>
+          <div class="my-3 p-3 border-2 border-white w-8/12 bg-opacity-25 bg-white rounded-md" v-if="status === 'SENT'">
+            Thanks for your message. I will get back to you asap.
+          </div>
           <form class="flex flex-col w-8/12" @submit.prevent="$emit('submit', $event)">
             <input class="mb-2 p-2 rounded-lg bg-custom-green border-white border-2 outline-none placeholder-white placeholder-opacity-50" type="text" :value="contact.name" @input="$emit('update', {name: $event.target.value})" required placeholder="Name" />
             <input class="mb-2 p-2 rounded-lg bg-custom-green border-white border-2 outline-none placeholder-white placeholder-opacity-50" type="email" :value="contact.email" @input="$emit('update', {email: $event.target.value})" required placeholder="Email" />
@@ -39,6 +42,7 @@ export default {
   name: 'Contact',
   props: {
     contact: { default: () => {} },
+    status: { default: '' },
     loading: { default: false },
     year: { default: '' }
   },

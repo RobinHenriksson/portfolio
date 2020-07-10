@@ -1,6 +1,7 @@
 <template>
   <Contact
     :loading="loading"
+    :status="status"
     :contact="contact"
     :year="year"
     @submit="handleSubmit"
@@ -20,7 +21,8 @@ export default {
   },
   computed: {
     ...mapGetters({
-      loading: 'contact/loading'
+      loading: 'contact/loading',
+      status: 'contact/status'
     })
   },
   data () {
