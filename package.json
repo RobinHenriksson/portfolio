@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "animate.css": "^3.7.2",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "css": "^2.2.4",
     "css-loader": "^3.6.0",
     "hooper": "^0.3.4",
